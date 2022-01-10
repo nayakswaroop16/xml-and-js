@@ -1,0 +1,12 @@
+main {
+    border: 1px solid #000;
+    background: #feffe0;
+    width: 400px;
+    padding: 8px;
+    padding-bottom: 0;
+}
+
+main input, main textarea {
+    margin-bottom: 8px;
+
+}

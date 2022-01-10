@@ -1,0 +1,4 @@
+For the first part of activity 1, the values inside the name, age and hobbies tag are directly populated inside the excel sheet.
+For the second part of activity 2, a table is created with headers name, age and hobbies. The table consists of 10 data rows. 
+
+For activity 2, a table is created with the same fields and values that were displayed as the question for activity 2.

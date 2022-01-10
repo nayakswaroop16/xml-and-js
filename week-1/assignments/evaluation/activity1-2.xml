@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<persons>
+    <personData>
+        <name>Swaroop Nayak</name>
+        <age>25</age>
+        <hobbies>Skateboarding </hobbies>
+    </personData>
+    <personData>
+        <name>Rassie Van Der</name>
+        <age>29</age>
+        <hobbies>Cricket </hobbies>
+    </personData>
+    <personData>
+        <name>Ronaldo</name>
+        <age>33</age>
+        <hobbies>Football </hobbies>
+    </personData>
+    <personData>
+        <name>Tiger Woods</name>
+        <age>51</age>
+        <hobbies>Golph</hobbies>
+    </personData>
+    <personData>
+        <name>Micheal Philips</name>
+        <age>32</age>
+        <hobbies>Swimming </hobbies>
+    </personData>
+    <personData>
+        <name>Khabib</name>
+        <age>33</age>
+        <hobbies>MMA </hobbies>
+    </personData>
+    <personData>
+        <name>Adam Cole</name>
+        <age>30</age>
+        <hobbies>Wrestling</hobbies>
+    </personData>
+    <personData>
+        <name>Irfan Khan</name>
+        <age>42</age>
+        <hobbies>Acting </hobbies>
+    </personData>
+    <personData>
+        <name>Pablo Escobar Jr</name>
+        <age>44</age>
+        <hobbies>Architect </hobbies>
+    </personData>
+    <personData>
+        <name>Kobe</name>
+        <age>30</age>
+        <hobbies>Basketball </hobbies>
+    </personData>
+</persons>

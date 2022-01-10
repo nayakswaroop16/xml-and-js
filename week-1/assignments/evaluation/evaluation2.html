@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="evaluation2.css" />
+	</head>
+	<body>
+		<main>
+			<label for="email">Your Email *: </label>
+			<input type="text" name="email" id="email" /><br />
+			<label for="date">Date of Visit:</label>
+			<input type="text" name="date" id="date" placeholder="mm/dd/yyyy" /><br />
+			<label for="comments">Your Comment:</label><br />
+			<textarea name="comments" id="comments" cols="30" rows="10"></textarea
+			><br />
+			<input
+				type="button"
+				value="Send your Feedback"
+				onclick="sendFeedback()"
+			/>
+		</main>
+	</body>
+	<script>
+		let sendFeedback = function () {
+			let email = document.getElementById("email").value;
+			let date = document.getElementById("date").value;
+			let comments = document.getElementById("comments").value;
+			alert(`Email: ${email} \nDate: ${date} \nComments: ${comments}`);
+			document.getElementById("email").value = "";
+			document.getElementById("date").value = "";
+			document.getElementById("comments").value = "";
+		};
+	</script>
+	<script src="evaluation2.js"></script>
+</html>
