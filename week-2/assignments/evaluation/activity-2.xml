@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<businessCardList>
+    <businessCard>
+        <name>Joe Marini</name>
+        <phone type="home">+1 (415) 555-1234</phone>
+        <phone type="work">+1 (800) 555-9867</phone>
+        <phone type="mobile">+1 (510) 555-1212</phone>
+        <email>joe@joe.com</email>
+    </businessCard>
+    <businessCard>
+        <name>Micheal Scott</name>
+        <phone type="home">+1 (415) 555-9999</phone>
+        <phone type="work">+1 (800) 555-3412</phone>
+        <phone type="mobile">+1 (510) 555-6466</phone>
+        <email>micheal@micheal.com</email>
+    </businessCard>
+    <businessCard>
+        <name>Jim Halper</name>
+        <phone type="home">+1 (415) 225-1111</phone>
+        <phone type="work">+1 (801) 225-3124</phone>
+        <phone type="mobile">+1 (512) 225-5432</phone>
+        <email>jim@jim.com</email>
+    </businessCard>
+    <businessCard>
+        <name>Creed Bratton</name>
+        <phone type="home">+1 (415) 666-5431</phone>
+        <phone type="work">+1 (800) 666-2251</phone>
+        <phone type="mobile">+1 (510) 666-5512</phone>
+        <email>creed@creed.com</email>
+    </businessCard>
+    <businessCard>
+        <name>Kelly Kapoor</name>
+        <phone type="home">+1 (415) 988-3312</phone>
+        <phone type="work">+1 (800) 988-7765</phone>
+        <phone type="mobile">+1 (510) 988-8897</phone>
+        <email>kelly@kelly.com</email>
+    </businessCard>
+    <businessCard>
+        <name>Ryan Howard</name>
+        <phone type="home">+1 (415) 333-9992</phone>
+        <phone type="work">+1 (800) 333-9867</phone>
+        <phone type="mobile">+1 (510) 333-6453</phone>
+        <email>ryan@ryan.com</email>
+    </businessCard>
+</businessCardList>
