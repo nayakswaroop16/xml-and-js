@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE products [
-  <!ELEMENT products (product+)>
-  <!ELEMENT product (productName, manufacturer, description?, prices, productItems)>
-  <!ATTLIST product
-    sku ID #REQUIRED
-    createdAt CDATA #REQUIRED
-    shippable CDATA #REQUIRED
-  >
-  <!ELEMENT productName (#PCDATA)>
-  <!ELEMENT manufacturer (#PCDATA)>
-  <!ATTLIST manufacturer id CDATA #REQUIRED>
-  <!ELEMENT description (#PCDATA)>
-  <!ELEMENT prices (price+)>
-  <!ELEMENT price (#PCDATA)>
-  <!ELEMENT productItems (#PCDATA)>
-]>
+<!DOCTYPE products SYSTEM "activity-1.dtd">
 <products>
   <product sku="BOS12DDF2" createdAt="2020-12-23T09:23:44" shippable="true">
     <productName>Dog Shirt Gift Basket</productName>
@@ -48,7 +33,7 @@
     </prices>
     <productItems>3230, 3232</productItems>
   </product>
-  <product sku="BJPSO1342KSLS" createdAt="2021-09-07T15:58:13" shippable="true">
+  <product sku="BJPSO1342KSLS" createdAt="2021-09-07T15:58:13" shippable="true"> 
     <productName>Dog Snuggle Basket</productName>
     <manufacturer id="acme">ACME</manufacturer>
     <prices>
