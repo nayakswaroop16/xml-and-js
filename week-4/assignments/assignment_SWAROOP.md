@@ -16,7 +16,7 @@
 6. Added subtable inide size columns
 ![image info](../assets/4.6.PNG)
 
-Output
+**Output**
 ![image info](../assets/4.7.PNG)
 
 
