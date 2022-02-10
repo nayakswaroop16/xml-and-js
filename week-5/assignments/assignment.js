@@ -86,7 +86,7 @@ const renderData = () => {
 	if (window.location.search) {
 		const params = new URLSearchParams(window.location.search);
 		const searchBy = params.get(`search`).toLowerCase();
-		document.getElementById(`search`).value = searchBy;
+		document.getElementById(`search`).value = params.get(`search`);
 
 		data = data.filter(
 			({ first_name, last_name, email, gender, ip_address }) =>
