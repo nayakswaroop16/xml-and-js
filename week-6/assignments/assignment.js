@@ -25,7 +25,7 @@ const generateTableRow = (item) => {
 	const ipAddress = Array.from(item.getElementsByTagName(`ip_address`))[0];
 
 	return `<tr>
-        <td>${id}</td>
+        <td>${id.textContent}</td>
         <td>${firstname.textContent} ${lastname.textContent}</td>
         <td>${gender.textContent}</td>
         <td>${email.textContent}</td>
