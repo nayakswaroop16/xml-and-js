@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<books>
+  <book id="1" category="Children">
+    <title>Harry Potter</title>
+    <author>J K. Rowling</author>
+    <price>&#8364;29.99</price>
+  </book>
+  <book id="2" category="Data Science">
+    <title>Data Smart</title>
+    <author>Foreman, John</author>
+    <price>&#8364;49.99</price>
+  </book>
+  <book id="3" category="Mathematics">
+    <title>God Created the Integers</title>
+    <author>Hawking, Stephen</author>
+    <price>&#8364;39.99</price>
+  </book>
+  <book id="4" category="History">
+    <title>Orientalism</title>
+    <author>Said, Edward</author>
+    <price>&#8364;29.99</price>
+  </book>
+  <book id="5" category="Psychology">
+    <title>How to Think Like Sherlock Holmes</title>
+    <author>Konnikova, Maria</author>
+    <price>&#8364;27.99</price>
+  </book>
+  <book id="6" category="History">
+    <title>Age of Wrath</title>
+    <author>Eraly, Abraham</author>
+    <price>&#8364;28.99</price>
+  </book>
+  <book id="7" category="Fiction">
+    <title>Trial</title>
+    <author>Kafka, Frank</author>
+    <price>&#8364;29.99</price>
+  </book>
+  <book id="8" category="Data Science">
+    <title>Data Mining Handbook</title>
+    <author>Nisbet, Robert</author>
+    <price>&#8364;39.99</price>
+  </book>
+  <book id="9" category="Computer Science">
+    <title>Making Software</title>
+    <author>Oram, Andy</author>
+    <price>&#8364;36.99</price>
+  </book>
+  <book id="10" category="Non Fiction">
+    <title>Beautiful and the Damned</title>
+    <author>Deb, Siddhartha</author>
+    <price>&#8364;26.99</price>
+  </book>
+  <book id="11" category="Fiction">
+    <title>Sherlock Holmes</title>
+    <author>Doyle, Arthur Conan</author>
+    <price>&#8364;27.99</price>
+  </book>
+  <book id="12" category="Non Fiction">
+    <title>Mein Kampf</title>
+    <author>Hitler, Adolf</author>
+    <price>&#8364;18.99</price>
+  </book>
+  <book id="13" category="Science">
+    <title>Tao of Physics</title>
+    <author>Capra, Fritjof</author>
+    <price>&#8364;24.99</price>
+  </book>
+  <book id="14" category="Fiction">
+    <title>Jurassic Park</title>
+    <author>Crichton, Michael</author>
+    <price>&#8364;27.99</price>
+  </book>
+  <book id="15" category="Economics">
+    <title>Freakonomics</title>
+    <author>Dubner, Stephen</author>
+    <price>&#8364;27.99</price>
+  </book>
+  <book id="16" category="Fiction">
+    <title>False Impressions</title>
+    <author>Archer, Jeffery</author>
+    <price>&#8364;29.99</price>
+  </book>
+  <book id="17" category="Computer Science">
+    <title>Data Structures Using C and C++</title>
+    <author>Tanenbaum, Andrew</author>
+    <price>&#8364;39.99</price>
+  </book>
+  <book id="18" category="Non Fiction">
+    <title>Idea of Justice</title>
+    <author>Sen, Amartya</author>
+    <price>&#8364;12.99</price>
+  </book>
+  <book id="19" category="Fiction">
+    <title>Angels and Demons</title>
+    <author>Brown, Dan</author>
+    <price>&#8364;23.99</price>
+  </book>
+  <book id="20" category="Philosophy">
+    <title>On Education</title>
+    <author>Russell, Bertrand</author>
+    <price>&#8364;14.99</price>
+  </book>
+  <book id="21" category="Fiction">
+    <title>Great Indian Novel</title>
+    <author>Tharoor, Shashi</author>
+    <price>&#8364;25.99</price>
+  </book>
+  <book id="22" category="Fiction">
+    <title>Burning Bright</title>
+    <author>Steinbeck, John</author>
+    <price>&#8364;22.99</price>
+  </book>
+  <book id="23" category="Fiction">
+    <title>Burning Bright</title>
+    <author>Steinbeck, John</author>
+    <price>&#8364;18.99</price>
+  </book>
+  <book id="24" category="Data Science">
+    <title>Pattern Classification</title>
+    <author>Duda, Hart</author>
+    <price>&#8364;21.99</price>
+  </book>
+  <book id="25" category="Science">
+    <title>Information</title>
+    <author>Gleick, James</author>
+    <price>&#8364;27.99</price>
+  </book>
+</books>

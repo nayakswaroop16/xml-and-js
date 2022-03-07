@@ -1,0 +1,39 @@
+<html lang="en">
+
+<head>
+    <title>Project 1 Books</title>
+</head>
+
+<body>
+    <form onreset="onReset()" onSubmit="onSubmit(event)">
+        <input type="text" name="search" id="input-search-term" placeholder="Search" /> <br>
+        Category : <br>
+        <input type="checkbox" id="fiction" name="category" value="fiction">
+        <label for="fiction">Fiction</label>
+        <input type="checkbox" id="science" name="category" value="science">
+        <label for="science">Science</label>
+        <input type="checkbox" id="history" name="category" value="history">
+        <label for="history">History</label>
+        <input type="checkbox" id="economics" name="category" value="economics">
+        <label for="economics">Economics</label><br>
+        Price : <br />
+        <input type="radio" id="0euro" name="price" value="0-30">
+        <label for="0euro">&#8364;0 to &#8364;30</label>
+        <input type="radio" id="30euro" name="price" value="30-60">
+        <label for="30euro">&#8364;30 to &#8364;60</label><br><br>
+        <button type="submit">Search</button>
+        <button type="reset">Reset</button>
+    </form>
+    <table id="table-data" border="1">
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Price</th>
+            <th>Category</th>
+        </tr>
+    </table>
+</body>
+<script type="text/javascript" src="books.js"></script>
+
+</html>
