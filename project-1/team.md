@@ -1,1 +1,5 @@
--- Abhishek Kalhan -- Ashley Rodrigues -- Sagar Sharma -- Swaroop Ramesh Nayak
+## Team Members
+- Abhishek Kalhan 
+- Ashley Rodrigues 
+- Sagar Sharma 
+- Swaroop Ramesh Nayak
