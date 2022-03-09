@@ -2,7 +2,7 @@
  * 1. Replace regular functions with arrow functions
  * 2. Fix callback hell by rewriting it with async/await
  * 3. Make sure the "Finish" is logged after all the data is converted
- */
+**/
 
 const timeout = async (ms) => {
 	return new Promise((resolve) => {
@@ -20,10 +20,10 @@ const generateData = async () => {
 	return data;
 };
 
-const convertToFeet = (meters) => {
-	const feet = meters * 3.2808;
+const convertToFeet = async(meters) => {
+	await timeout(200)
 	return new Promise((resolve) => {
-		resolve(feet);
+		resolve( meters * 3.2808);
 	});
 };
 
