@@ -13,6 +13,7 @@ const loadData = (path) =>
 const renderData = (data, searchTerm) => {
 	const table = document.getElementById("html-table");
 	if (searchTerm) {
+		searchTerm = searchTerm.toLowerCase();
 		data = data.filter(
 			({ first_name, last_name, email, gender, ip_address }) =>
 				last_name.toLowerCase().includes(searchTerm) ||

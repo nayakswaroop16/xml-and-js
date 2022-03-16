@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Assignment</title>
+	</head>
+	<script type="text/javascript" src="assignment.js"></script>
+	<body>
+		<form onsubmit="onSubmit(event)" onreset="onReset()">
+			<input
+				type="text"
+				name="search"
+				placeholder="Search"
+			/>
+			<button type="submit">Apply</button>
+			<button type="reset">Reset</button>
+		</form>
+        <br />
+		<table border="1">
+			<thead>
+				<tr>
+					<th>id</th>
+					<th>Name</th>
+					<th>Email</th>
+					<th>Gender</th>
+					<th>IP Address</th>
+				</tr>
+			</thead>
+			<tbody id="table-people"></tbody>
+		</table>
+	</body>
+</html>
