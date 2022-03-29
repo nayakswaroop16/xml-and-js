@@ -112,8 +112,8 @@
     "yallist": "^4.0.0"
   },
   "scripts": {
-    "start": "node activity-server.js",
-    "dev": "nodemon activity-server.js",
+    "start": "node assignment-server.js",
+    "dev": "nodemon assignment-server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
