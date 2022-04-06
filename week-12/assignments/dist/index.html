@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<form onsubmit="onSubmit(event)" onreset="onReset()">
+			<input
+				type="text"
+				name="name"
+				id="input-name-term"
+				placeholder="enter name"
+			/>
+            <select name="city" id="city"></select>
+            <select name="state" id="state"></select>
+			<button type="submit">Apply filters</button>
+			<button type="reset">Reset</button>
+		</form> <br>
+		<table border="1">
+			<thead>
+				<tr>
+					<th>ID</th>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Email</th>
+					<th>Gender</th>
+					<th>Street Name</th>
+					<th>City</th>
+					<th>State</th>
+					<th>Country</th>
+					<th>Country Code</th>
+				</tr>
+			</thead>
+			<tbody id="table-body"></tbody>
+		</table>
+	</body>
+	<!-- <script type="text/javascript" src="./index.js"></script> -->
+    <script src="./bundle.js"></script>
+</html>
