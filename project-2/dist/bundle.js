@@ -1275,8 +1275,12 @@ const fillDropdown = (data) => {
 	if (!dropdown) {
 		throw new Error("No dropdown found");
 	}
-	const options = data.reduce(
-		(acc, { origin }) => acc + `<option value="${origin}">${origin}</option>`,
+	let countries = data.map((elm) => {
+		return elm.origin;
+	});
+	countries = [...new Set(countries)];
+	const options = countries.reduce(
+		(acc, origin) => acc + `<option value="${origin}">${origin}</option>`,
 		`<option value="">Select country</option>`
 	);
 	dropdown.innerHTML = options;
