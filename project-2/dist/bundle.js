@@ -1254,7 +1254,6 @@ const renderTable = (data, nameTerm) => {
 
 	let source = data;
 
-	fillDropdown(data);
 	if (nameTerm) {
 		source = source.filter(({ name }) => name.toLowerCase().includes(nameTerm));
 	}
@@ -1286,7 +1285,10 @@ const fillDropdown = (data) => {
 	dropdown.innerHTML = options;
 };
 
-getAll().then(({ data }) => renderTable(data));
+getAll().then(({ data }) =>  {
+  renderTable(data)
+  fillDropdown(data)
+});
 
 window.onSubmit = (event) => {
 	event.preventDefault();
