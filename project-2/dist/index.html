@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Animal Data</title>
+	</head>
+	<body>
+		<form onsubmit="onSubmit(event)" onreset="onReset()">
+			<input type="number" name="id" id="input-id" placeholder="Search by ID" />
+			<input type="text" name="common_name" id="input-common-name" placeholder="Search by common name" />
+			<input type="text" name="scientific_name" id="input-scientific-name" placeholder="Search by scientific name" />
+            <select name="origin" id="origin">              
+            </select>
+			<button type="submit">Apply filters</button>
+			<button type="reset">Reset</button>
+		</form> <br>
+		<table border="1">
+			<thead>
+				<th>ID</th>
+				<th>Animal Common Name</th>
+				<th>Animal Scientific Name</th>
+				<th>Origin</th>
+			</thead>
+			<tbody id="table-data"></tbody>
+		</table>
+	</body>
+	<script src="./bundle.js"></script>
+</html>
